@@ -92,7 +92,8 @@ a.voltar:hover {
     text-decoration: none;
     color: black;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 .principal a:hover {
@@ -113,4 +114,13 @@ section {
     height: 1px;
     background-image: url(../img/controle.png);
     background-size: contain;
+}
+
+.titulo {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+}
+
+.paragrafo {
+    font-size: 20px;
 }

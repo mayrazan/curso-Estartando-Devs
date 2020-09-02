@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(56, 7, 56, 0.459);
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.games a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+  
+.games {
+    background-color: #5c203e83;
+    height: 45px;
+    width: 70%;
+    margin: auto;
+}
+  
+.games li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+
+.games ul {
+    padding-left: 0;
+}
+
+.games a:hover {
+	text-decoration: underline; 
+    color:white;
+}
+
+.voltar {
+    background-color: #41f341;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+a.voltar:hover {
+    background-color:royalblue;
+}
+
+.acao-aventura a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+  
+.acao-aventura  {
+    background-color: #5c203e83;
+    height: 45px;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+  
+.acao-aventura li {
+    display: inline-block;
+    margin: 0 25px;
+    text-align: center;
+}
+.acao-aventura ul {
+    padding-left: 0;
+}
+
+.acao-aventura a:hover {
+	text-decoration: underline; 
+    color:white;
+}
+
+.principal ul {
+    list-style-type: none;
+    line-height: 1.5;
+    padding-left: 0;
+}
+
+.principal a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.principal a:hover {
+    color: blueviolet;
+}
+
+section section{
+    width: 90%;
+}
+  
+section {
+    width: 50%;
+    margin: auto;
+}
+
+.imageBox {
+    padding: 15px;
+    height: 1px;
+    background-image: url(../img/controle.png);
+    background-size: contain;
+}
